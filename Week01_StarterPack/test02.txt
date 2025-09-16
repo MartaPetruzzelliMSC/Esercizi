@@ -1,0 +1,145 @@
+Lezione 1
+GIT
+Distributed version control system
+Tracciare i cambiamenti fatti al codice e migliora la collaborazione tra developer
+Distributed – perché ogni programmatore ha la copia della storia
+REPOSITORY cartella che contiene quello che volgiamo tracciare – può essere locale o remota host su un cloud
+BRANCH versione del file usata esclusivamente da una persona dove poter fare le proprie modifiche – linea separata di sviluppo – permettono l’aiuto parallelo
+Comandi
+Git clone – git innit – git checkout – git push – git merge – git cherry-pick – git stash – git fetch – git commit - git push – git branch (nuova branch) – git reset - git revert – git add 
+In stage – file pronti per essere commissionati (sono stati controllati)
+Git commit inserisce i cambiamenti nella storia di git – locale – non sono ancora nella storia comune
+Git push manda la storia sulla repo in remoto e tutti gli altri utenti possono vederla
+Checkout senza commit restora i file agli ultimi cambiamenti committati
+Fetch aggiorna la storia, vedo le modifiche fatte ma non sono applicate ai miei file
+Cherry-pick copia uno o più commit specifici da una branch all’altra
+Stash salvo i file in locale senza committarli – viene salvato nel mio file history ma non viene mai pushato, mi permette di cambiare branch senza perdere codice
+STANDARD: tre tipi di branch – master – release (versione software funzionante) – feature branch di sviluppo varie con versioni diverse
+Hot fix cambiamenti che vanno riportati sia in release che in master
+Merge usato per integrare branch
+Fast-forward merge: se non ci sono problemi mergia tutto in automatico
+Three-way merge: file remote + file locale + file di mezzo con entrambe i codici dove bisogna scegliere cosa tenere
+Merge conflicts: quando le branch clashano
+PR – pull requests – permettono review e discussioni prima del merging – si fa con azure dev ops, github, gitlab ecc – faccio cambiamenti sulla mia branch, pusho, pull request, il codice viene revisionato e approvato, merge nella main
+Le branch vengono usate per feature specifiche
+Ci/cd
+Git interagisce con pipleline di integrazione continue
+git flow
+gitHub flow (aggiunge pull requests)
+trunk-based development (non più usato)
+git permette di mettere dei tag tipo per i versionamenti del codice
+ANNULLARE CAMBIAMENTI:
+git reset – cancella modifiche fatte portando indietro alle ultime cose committate
+git revert – porta le modifiche che stai facendo a un commit precedente a scelta – modifica la storia
+git checkout – come reset ma riporta solo all’ultimo commit
+ISPEZIONARE LA HISTORY:
+git log – informazioni e stat
+git diff – mi dice le differenze tra due file
+git blame – permette di vedere chi ha fatto un commit specifico 
+GIT GUI – strumenti per usare git e vedere la storia delle branch ecc
+TROUBLESHOOTING
+Detached head state – perdita di connessione
+Merge conflicts
+Push rejection – non viene accettato il push probabilmente conflitti
+Solution via rebase/reset
+Rebase mi riprende le branch con gli ultimi commit fatti e i miei commit me li mette alla fine – come se avessi staccato una nuova branch da quella lì
+git push --set-upstream origin feature-marta.petruzzelli per pushare la branch la prima volta
+ls vedi le cartelle
+pwd print working directory vedi da che cartella scrivi
+mkdir crei cartella
+touch crei file
+nano editor per i file
+git add per aggiungere file da committare
+q per interrompere comandi
+puoi fare tutto da azure – pusha anche
+se faccio modifiche e pusho direttamente su azure non vedo le modifiche in automatico sui miei file locali ma devo pullare
+
+VISUAL STUDIO 
+È un’ IDE interfaccia di sviluppo di microsoft
+Un’ide ci permette di scrivere codice che verrà interpretato
+Vs 2022 full ide con tool e funzionalità estensive
+Vs code è più leggero ma bisogna installare le estensioni
+SOLUTION container logico per I progetti – ci dice tutti i progetti contenuti nella cartella. Nella stessa solution possono vivere più applicazioni – aggruppamento logico di progetti
+PROJECT dove scriviamo il codice, la nostra applicazione, contiene le classi
+CLASS il file effettivo – blueprint di oggetti
+ASSEMBLY ddl/exe compilato – viene creato a partire dal mio codice – un’application dà un exe mentre un class library dà un ddl
+console app vs class library
+console app - executive con entry point exe – è runnabile
+class library – reusable ddl – posso usarlo per più progetti – non ha un exe quindi non lo posso usare direttamente o runnarlo ma lo posso usare in altre cose – lista di metodi delle classi del nostro progetto – ha dentro tutti i metodi e classi, posso decompilarla – è tutto il progetto
+
+Debugging:
+breakpoints – il codice si ferma quando passa da quel punto e possiamo esaminare quello che vogliamo
+step over/into/out – dal breakpoint posso entrare nel pezzo di codice saltarlo o uscirne
+watch variables – selezionare variabili da seguire per vedere valori assegnati ecc
+call stack inspection – lista di tutti i metodi chiamati nel nostro breakpoint a cascata vioè ogni metodo da chi è stato chiamato ecc fino a dove ci siamo fermati noi – ora call hierarchy da view
+
+ciao marcello prima o poi leggerai questi appunti
+
+git changes si apre a destra in visual studio – selezionare il più sui cambiamenti da stageare
+tendina commit all / commite stage / stash all / stash and keep staged
+stash per andare a modificare altre cose e poter tornare ai cambiamenti dopo
+
+dev.azure.com/msc-sandbox
+https://msc-sandbox@dev.azure.com/msc-sandbox/Turin-academies/_git/MSC-Academy-Dev-7
+
+sync = pull e push
+
+build se ci sono errori di build non builda ma se ci sono errori di inntellisense builda comunque
+
+NuGet librerie postate da vari enti – librerie esterne dipendenze del programma ma non saranno nel programma, saranno esterne
+Io ho un progetto centralizzato singolo faccio le modifiche pusho sul mio nuget e poi può essere usato da vari sviluppatori – non do accesso al repository ma do accesso solo al nuget
+NuGet Package manager -> Serve a aggiungere modificare e rimuovere librerie, semplifica la gestione delle dipendenze
+Tools – nuget package manager -manage nuget package for solution
+
+Debug vs release modes – configuration che ha visual studio – ci producono il risultato in modo diverso – debug ha delle ref per tracciare cose nel codice, si ferma ai debug mentre release runna e basta non posso debuggarla, non si ferma ai breakpoint – quando runno il debug si generano file apposta
+Si possono creare configuration custom
+
+LEZIONE 2
+Co’è il .net framework
+Differenza con .net core
+Un framework è un’insieme di librerie predefinite che noi possiamo usare e in cui inseriamo il nostro codice – ci semplifica il lavoro perché è uno scheletro per un’applicazione già fatto
+.net framework è per c#
+Ora .net framework è legacy perché nel 2015 tipo è uscito .net core ma .net framework è ancora il più diffuso perchè prima era usato per ogni windows application e le applicazioni fatte prima con .net framework continuano a usare quello
+.net framework è solo per windows
+Ha un clr – gestione più facilitata della memoria, dell’esecuzione, della sicurezza e delle eccezioni – common language runtime – usa garbage collector
+.net nato per combattere la diffusione di java
+
+Per fare applicazioni nuove si usa .net core
+Core comprende alcune librerie di .net framework ma non tutte o sarebbe legato a windows invece è cross-platform e opensource quindi posso usarla anche per windowd e macos. Designed for cloud and modern apps and api
+.net 5/6/7 si intende il core generalmente – ha reso lo sviluppio possibile su un’unica piattaforma (visual studio – poi lo posso runnare ovunque) – ha performance migliori
+
+.net ha una serie di class libraries per i/o, networking, collection, data, UI
+Visual studio con .net – ide – debugging – git integration - .net platform basics
+
+C#
+Introdotto dopo c++ per essere più moderno e simile a java
+Usato per oop
+Sviluppato da microsoft per .net platform
+Usato per desktop, mobile, web e game development
+Ha operatori e espressioni 
+Operatori aritmetici, di assegnamento o di comparazione
+Espressione insieme di operatori che mi danno un risultato
+Operatori di incremento e decremento: i++ restituisce il valore e poi lo aumente, ++i incrementa il valore e poi lo restituisce
+Ha dei construct: sequenze, selection(if, switch), iterazione (for, while, do-while)
+Data type:
+Value type – valore fisicamente salvato in memoria (int double float decimal char string array)
+Reference type – la variabile contiene l’indirizzo del valore in memoria – se copio copio l’indirizzo
+Int  stora numeri interi – 32 bit
+Double stora decimali – 64 bit – double floating point
+Decimal alta precisione – usato per calcoli finanziari
+Float single precision floating point – meno preciso
+Array – collezione di elementi dello stesso tipo – misura fissa decisa alla creazione es int[ ]
+Char – è un carattere unicode – segnato con apici singoli ‘ ‘
+Stringa – è una sequenza di caratteri – di fatto è un array di caratteri – ha i doppi apici – essendo tipo un array di fatto se modifichi una stringa c# distrugge quella precedente e la ricrea – si possono estrapolare caratteri singoli
+Il cast non è automatico tipo non posso creare un int e dividerlo e fare uscire un float
+int num = 5;
+double half = (double)num / 2;
+Console.WriteLine($"la metà di {num} è {half}");
+
+convertire da stringa a numero
+string answer = Console.ReadLine();
+int a = int.Parse(answer);
+int b = Convert.ToInt32(answer);
+int c;
+int.TryParse(answer, out c);
+il tryParse se riceve una lettera restituisce uno 0. Gli altri crashano
