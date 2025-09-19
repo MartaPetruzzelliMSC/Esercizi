@@ -144,6 +144,8 @@ int c;
 int.TryParse(answer, out c);
 il tryParse se riceve una lettera restituisce uno 0. Gli altri crashano
 
+Loop – break esce dal ciclo – continue salta il resto dell’iterazione ma continua il ciclo
+
 LEZIONE 3
 Tipi di costanti:
 Const – compiletime constant – settata in memoria quando compili e fai la build – può essere usata con i tipi primitivi e non cambia – puoi dichiararla in qualsiasi metodo del programma
@@ -152,3 +154,27 @@ Readonly – runtime constant – settata quando lanci l’applicazione ( quando
 dateTime – è un oggetto – tipo che rappresenta data e orario
 supporta vari tipi di formato e operazioni sulle date
 posso fare operazioni sulle date tipo con .addDays ecc e se voglio sottrare passo un numero negativo
+Timespan – totalhours ci dà il timespan in ore – totaldays mi dà il timespan in giorni
+
+LEZIONE 4
+Try Catch
+Gestione delle eccezioni
+Throw lancia eccezioni
+
+Substring primo caratterre indice da dove parte, secondo lunghezza della stringa che otterreno, se manca il secondo arriva a fine stringa se il secondo sfora dà errore
+Split ritorna un array di stringhe
+Replace primo input da sostituire, secondo quello che lo sostituisce
+Trim senza niene toglie gli spazi allinizio e alla fine
+
+Character encoding
+Tutti i caratteri che scriviamo hanno una codifica numerica
+Ascii: 7 bit encoging supporta 128 caratteri
+Utf-8: encoding di lunghezza variabile, supporta tutti i caratteri unicode
+
+LEZIONE 5
+Requirement – testing su come deve funzionare l’algoritmo
+Metodi stringhe
+Length
+indexOf (string sorgente, string blocco) valdo sia per caratteri singoli che per stringhe
+replace
+contains

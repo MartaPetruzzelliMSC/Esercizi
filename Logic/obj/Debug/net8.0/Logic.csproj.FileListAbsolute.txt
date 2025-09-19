@@ -1,0 +1,15 @@
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\bin\Debug\net8.0\Logic.exe
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\bin\Debug\net8.0\Logic.deps.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\bin\Debug\net8.0\Logic.runtimeconfig.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\bin\Debug\net8.0\Logic.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\bin\Debug\net8.0\Logic.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\Logic.AssemblyInfoInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\Logic.AssemblyInfo.cs
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\Logic.sourcelink.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\Logic.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\refint\Logic.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\Logic.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\Logic.genruntimeconfig.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Logic_Algorithms\Logic\Examples\Logic\obj\Debug\net8.0\ref\Logic.dll
