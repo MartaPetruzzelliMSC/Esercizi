@@ -1,0 +1,15 @@
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\bin\Debug\net8.0\PresentationLayer.exe
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\bin\Debug\net8.0\PresentationLayer.deps.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\bin\Debug\net8.0\PresentationLayer.runtimeconfig.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\bin\Debug\net8.0\PresentationLayer.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\bin\Debug\net8.0\PresentationLayer.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\PresentationLayer.AssemblyInfo.cs
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\PresentationLayer.sourcelink.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\PresentationLayer.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\refint\PresentationLayer.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\PresentationLayer.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\PresentationLayer.genruntimeconfig.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week02_OOP\Pegasus\Pegasus.Nexus\PresentationLayer\obj\Debug\net8.0\ref\PresentationLayer.dll
