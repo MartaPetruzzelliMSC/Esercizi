@@ -1,0 +1,16 @@
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\bin\Debug\net8.0\Entity.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\bin\Debug\net8.0\Entity.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
