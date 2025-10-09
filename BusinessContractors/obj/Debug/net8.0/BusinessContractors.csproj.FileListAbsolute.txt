@@ -1,0 +1,12 @@
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\bin\Debug\net8.0\BusinessContractors.deps.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\bin\Debug\net8.0\BusinessContractors.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\bin\Debug\net8.0\BusinessContractors.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\BusinessContractors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\BusinessContractors.AssemblyInfoInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\BusinessContractors.AssemblyInfo.cs
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\BusinessContractors.csproj.CoreCompileInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\BusinessContractors.sourcelink.json
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\BusinessContractors.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\refint\BusinessContractors.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\BusinessContractors.pdb
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\BusinessContractors\obj\Debug\net8.0\ref\BusinessContractors.dll

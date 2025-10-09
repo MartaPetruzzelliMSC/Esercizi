@@ -16,3 +16,5 @@ C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\Business\obj\Debug\net8.0\refint\Business.dll
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\Business\obj\Debug\net8.0\Business.pdb
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\Business\bin\Debug\net8.0\BusinessContractors.dll
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week04_Exercise_Week_C#\ItaloThreeLayers\Business\bin\Debug\net8.0\BusinessContractors.pdb

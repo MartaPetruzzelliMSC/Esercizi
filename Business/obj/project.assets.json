@@ -696,10 +696,21 @@
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
+      "BusinessContractors/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BusinessContractors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessContractors.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "BusinessContractors": "1.0.0",
           "Entity": "1.0.0",
           "Microsoft.Extensions.Configuration.Binder": "9.0.9",
           "Microsoft.Extensions.Hosting": "9.0.9",
@@ -1789,6 +1800,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BusinessContractors/1.0.0": {
+      "type": "project",
+      "path": "../BusinessContractors/BusinessContractors.csproj",
+      "msbuildProject": "../BusinessContractors/BusinessContractors.csproj"
     },
     "DataAccess/1.0.0": {
       "type": "project",

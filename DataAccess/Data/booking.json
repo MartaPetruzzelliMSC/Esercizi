@@ -1,1 +1,33 @@
-{"Bookings":[{"Id":1,"DepartureStation":"s","ArrivalStation":"sd","Name":"as","Surname":"ads"},{"Id":2,"DepartureStation":"","ArrivalStation":"fe","Name":"f","Surname":"fsd"},{"Id":3,"DepartureStation":"","ArrivalStation":"","Name":"","Surname":"wef"},{"Id":4,"DepartureStation":"sdd","ArrivalStation":"ds","Name":"sd","Surname":"sd"},{"Id":5,"DepartureStation":"ds","ArrivalStation":"d","Name":"ds","Surname":"d"}]}
+{
+  "Bookings": [
+    {
+      "Id": 2,
+      "DepartureStation": "ciaois",
+      "ArrivalStation": "sdfwef",
+      "Name": "asdcas",
+      "Surname": "asdasdasd"
+    },
+    {
+      "Id": 3,
+      "DepartureStation": "ciao",
+      "ArrivalStation": "ciao ",
+      "Name": "ciao",
+      "Surname": "ciao"
+    },
+    {
+      "Id": 5,
+      "DepartureStation": "yju",
+      "ArrivalStation": "u",
+      "Name": "uu",
+      "Surname": "y"
+    },
+    {
+      "Id": 6,
+      "DepartureStation": "trtrrt",
+      "ArrivalStation": "rtrtrt",
+      "Name": "rttrrt",
+      "Surname": "rttrrt"
+    }
+  ]
+}
+

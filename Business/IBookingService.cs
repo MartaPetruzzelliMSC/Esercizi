@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessContractors;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,12 @@ namespace Business
 {
     public interface IBookingService
     {
-        BookingDto CreateBooking(BookingCommand command);
+        Task<BookingDto> CreateBookingAsync(CreateBookingCommand command, CancellationToken cancellationToken);
+
+        Task<List<BookingDto>> GetAllBookingsAsync(CancellationToken cancellationToken);
+
+        Task<bool> DeleteBookingByIdAsync(int id, CancellationToken cancellationTolen);
+        
+        Task<BookingDto> UpdateBookingAsync(DeleteUpdateBookingCommand duCommand, CancellationToken cancellationToken);
     }
 }

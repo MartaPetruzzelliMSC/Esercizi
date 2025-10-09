@@ -1,4 +1,5 @@
-﻿using Entity;
+﻿using BusinessContractors;
+using Entity;
 using System.Xml.Linq;
 
 namespace Business
@@ -13,6 +14,7 @@ namespace Business
             }
 
             BookingDto dto = new BookingDto(
+                booking.Id,
                 booking.DepartureStation,
                 booking.ArrivalStation,
                 booking.Name,

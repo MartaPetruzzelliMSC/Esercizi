@@ -1,0 +1,438 @@
+{
+  "Stations": [
+    {
+      "Id": 1,
+      "Name": "Torino Porta Nuova",
+      "Platforms": "20",
+      "IsTerminalStation": "Yes",
+      "IsActive": true
+    },
+    {
+      "Id": 2,
+      "Name": "Torino Porta Susa",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 3,
+      "Name": "Rho Fiera Milano",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 4,
+      "Name": "Milano Centrale",
+      "Platforms": "24",
+      "IsTerminalStation": "Yes",
+      "IsActive": true
+    },
+    {
+      "Id": 5,
+      "Name": "Milano Rogoredo",
+      "Platforms": "13",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 6,
+      "Name": "Pavia",
+      "Platforms": "7",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 7,
+      "Name": "Voghera",
+      "Platforms": "8",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 8,
+      "Name": "Tortona",
+      "Platforms": "5",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 9,
+      "Name": "Genova Piazza Principe",
+      "Platforms": "12",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 10,
+      "Name": "Genova Brignole",
+      "Platforms": "10",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 11,
+      "Name": "Bergamo",
+      "Platforms": "11",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 12,
+      "Name": "Brescia",
+      "Platforms": "14",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 13,
+      "Name": "Desenzano del Garda-Sirmione",
+      "Platforms": "14",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 14,
+      "Name": "Peschiera del Garda",
+      "Platforms": "3",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 15,
+      "Name": "Verona Porta Nuova",
+      "Platforms": "12",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 16,
+      "Name": "Rovereto",
+      "Platforms": "3",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 17,
+      "Name": "Trento",
+      "Platforms": "7",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 18,
+      "Name": "Bolzano",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 19,
+      "Name": "Vicenza",
+      "Platforms": "8",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 20,
+      "Name": "Padova",
+      "Platforms": "11",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 21,
+      "Name": "Venezia Mestre",
+      "Platforms": "14",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 22,
+      "Name": "Venezia Santa Lucia",
+      "Platforms": "25",
+      "IsTerminalStation": "Yes",
+      "IsActive": true
+    },
+    {
+      "Id": 23,
+      "Name": "Treviso Centrale",
+      "Platforms": "9",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 24,
+      "Name": "Conegliano",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 25,
+      "Name": "Pordenone",
+      "Platforms": "3",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 26,
+      "Name": "Udine",
+      "Platforms": "8",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 27,
+      "Name": "San Donà di Piave-Jesolo",
+      "Platforms": "3",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 28,
+      "Name": "Portogruaro-Caorle",
+      "Platforms": "7",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 29,
+      "Name": "Latisana-Lignano-Bibione",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 30,
+      "Name": "Trieste Airport",
+      "Platforms": "2",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 31,
+      "Name": "Monfalcone",
+      "Platforms": "3",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 32,
+      "Name": "Trieste Centrale",
+      "Platforms": "8",
+      "IsTerminalStation": "Yes",
+      "IsActive": false
+    },
+    {
+      "Id": 33,
+      "Name": "Rovigo",
+      "Platforms": "5",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 34,
+      "Name": "Ferrara",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 35,
+      "Name": "Reggio Emilia AV Mediopadana",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 36,
+      "Name": "Bologna Centrale AV",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 37,
+      "Name": "Firenze Santa Maria Novella",
+      "Platforms": "19",
+      "IsTerminalStation": "Yes",
+      "IsActive": true
+    },
+    {
+      "Id": 38,
+      "Name": "Roma Tiburtina",
+      "Platforms": "19",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 39,
+      "Name": "Roma Termini",
+      "Platforms": "32",
+      "IsTerminalStation": "Yes",
+      "IsActive": true
+    },
+    {
+      "Id": 40,
+      "Name": "Caserta",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 41,
+      "Name": "Benevento",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 42,
+      "Name": "Foggia",
+      "Platforms": "13",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 43,
+      "Name": "Barletta",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 44,
+      "Name": "Trani",
+      "Platforms": "3",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 45,
+      "Name": "Bisceglie",
+      "Platforms": "2",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 46,
+      "Name": "Molfetta",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 47,
+      "Name": "Bari Centrale",
+      "Platforms": "19",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 48,
+      "Name": "Aversa",
+      "Platforms": "7",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 49,
+      "Name": "Napoli Afragola",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 50,
+      "Name": "Napoli Centrale",
+      "Platforms": "23",
+      "IsTerminalStation": "Yes",
+      "IsActive": true
+    },
+    {
+      "Id": 51,
+      "Name": "Salerno",
+      "Platforms": "12",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 52,
+      "Name": "Agropoli-Castellabate",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 53,
+      "Name": "Vallo della Lucania-Castelnuovo",
+      "Platforms": "5",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 54,
+      "Name": "Sapri",
+      "Platforms": "3",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 55,
+      "Name": "Maratea",
+      "Platforms": "3",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 56,
+      "Name": "Scalea-Santa Domenica Talao",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 57,
+      "Name": "Paola",
+      "Platforms": "5",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 58,
+      "Name": "Lamezia Terme Centrale",
+      "Platforms": "7",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 59,
+      "Name": "Vibo Valentia-Pizzo",
+      "Platforms": "4",
+      "IsTerminalStation": "No",
+      "IsActive": false
+    },
+    {
+      "Id": 60,
+      "Name": "Rosarno",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 61,
+      "Name": "Villa San Giovanni",
+      "Platforms": "6",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    },
+    {
+      "Id": 62,
+      "Name": "Reggio Calabria Centrale",
+      "Platforms": "19",
+      "IsTerminalStation": "No",
+      "IsActive": true
+    }
+  ]
+}
