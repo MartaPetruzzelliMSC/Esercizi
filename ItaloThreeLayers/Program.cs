@@ -11,7 +11,8 @@ namespace ItaloThreeLayers
         static void Main(string[] args)
         {
             var applicationBuilder = Host.CreateApplicationBuilder();
-            applicationBuilder.Services.AddTransient<IBookingRepository, BookingJsonRepository>();
+            applicationBuilder.Services.AddTransient<IBookingJsonRepository, BookingJsonRepository>();
+            applicationBuilder.Services.AddTransient<IStationRepository, StationJsonRepository>();
             applicationBuilder.Services.AddSingleton<IBookingConverter, BookingConverter>();
             applicationBuilder.Services.AddSingleton<IBookingService, BookingService>();
             applicationBuilder.Services.AddSingleton<IConsoleView, ConsoleView>();
