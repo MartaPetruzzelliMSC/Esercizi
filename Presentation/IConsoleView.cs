@@ -8,6 +8,6 @@ namespace Presentation
 {
     public interface IConsoleView
     {
-        void ShowMenu();
+        Task ShowMenu();
     }
 }

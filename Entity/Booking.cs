@@ -3,19 +3,18 @@
     public class Booking
     {
         public Booking(int id, string departureStation, string arrivalStation, 
-            string name, string surname)
+            Passenger passenger)
         {
             Id = id;
             DepartureStation = departureStation;
             ArrivalStation = arrivalStation;
-            Name = name;
-            Surname = surname;
+            Passenger = passenger;
         }
 
         public int Id { get; set; }
-        public string DepartureStation { get; private set; }
-        public string ArrivalStation { get; private set; }
-        public string Name { get; private set; }
-        public string Surname { get; private set; }
+        public string DepartureStation { get; set; }
+        public string ArrivalStation { get; set; }
+
+        public Passenger Passenger { get; set; }
     }
 }

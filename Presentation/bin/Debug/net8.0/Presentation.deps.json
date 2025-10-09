@@ -470,8 +470,17 @@
           }
         }
       },
+      "BusinessContractors/1.0.0": {
+        "runtime": {
+          "BusinessContractors.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "DataAccess/1.0.0": {
         "dependencies": {
+          "BusinessContractors": "1.0.0",
           "Entity": "1.0.0",
           "Microsoft.Extensions.Configuration.Binder": "9.0.9",
           "Microsoft.Extensions.Hosting": "9.0.9",
@@ -737,6 +746,11 @@
       "hashPath": "system.text.json.9.0.9.nupkg.sha512"
     },
     "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessContractors/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
