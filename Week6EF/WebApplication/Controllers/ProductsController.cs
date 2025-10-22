@@ -20,8 +20,8 @@ public class ProductsController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
     {
-        var query = _context.Products.AsNoTracking()
-            .Include(p => p.Warehouse); // Include related Warehouse data
+        var query = _context.Products.AsNoTracking();
+            //.Include(p => p.Warehouse); // Include related Warehouse data
 
         var sql = query.ToQueryString();
 
@@ -33,7 +33,7 @@ public class ProductsController : ControllerBase
     public async Task<ActionResult<Product>> GetProduct(int id)
     {
         var product = await _context.Products.AsNoTracking()
-            .Include(p => p.Warehouse)
+            //.Include(p => p.Warehouse)
             .FirstOrDefaultAsync(p => p.Id == id);
 
         if (product == null)
@@ -44,17 +44,23 @@ public class ProductsController : ControllerBase
 
     // POST: api/products
     [HttpPost]
-    public async Task<ActionResult<Product>> CreateProduct(Product product)
+    public async Task<IActionResult> CreateProduct(ProductDto product)
     {
         var warehouseExists = await _context.Warehouses
             .AnyAsync(w => w.Id == product.WarehouseId);
         if (!warehouseExists)
             return BadRequest($"Warehouse with ID {product.WarehouseId} does not exist.");
 
-        _context.Products.Add(product);
+        var p = _context.Products.Add(new Product
+        {
+            Name = product.Name,
+            Price = product.Price,
+            WarehouseId = product.WarehouseId,
+        });
         await _context.SaveChangesAsync();
 
-        return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
+        //return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
+        return Ok();
     }
 
     // PUT: api/products/5

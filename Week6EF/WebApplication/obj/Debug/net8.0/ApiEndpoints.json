@@ -29,21 +29,11 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "WebApplicationEF.Models.Product",
+        "Type": "WebApplicationEF.Dtos.ProductDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApplicationEF.Models.Product",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "WebApplicationEF.Controllers.ProductsController",
@@ -118,7 +108,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Models.Warehouse, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Dtos.WarehouseDto, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -170,7 +160,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApplicationEF.Models.Warehouse",
+        "Type": "WebApplicationEF.Dtos.WarehouseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
 namespace WebApplicationEF.Models;
@@ -14,7 +15,5 @@ public partial class Product
 
     public int WarehouseId { get; set; }
 
-    [JsonIgnore]
     public virtual Warehouse Warehouse { get; set; } = null!;
 }
-

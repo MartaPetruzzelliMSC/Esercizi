@@ -17,7 +17,4 @@ public class Warehouse
 
     // Navigazione inversa
     public List<Product> Products { get; set; } = new();
-
-    //Foreing Key
-    public int CountryId { get; set; }
 }

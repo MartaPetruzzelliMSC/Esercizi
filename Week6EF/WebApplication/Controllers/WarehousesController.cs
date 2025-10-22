@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WebApplicationEF.Dtos;
 using WebApplicationEF.Models;
 
 namespace WebApplicationEF.Controllers;
@@ -17,16 +18,49 @@ public class WarehousesController : ControllerBase
 
     // GET: api/warehouses
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Warehouse>>> GetWarehouses()
+    public async Task<ActionResult<IEnumerable<WarehouseDto>>> GetWarehouses()
     {
-        return await _context.Warehouses.Include(x => x.Products).ToListAsync();
+        var w = _context.Warehouses
+            .Include(x => x.Products)
+            .Select(x => new WarehouseDto
+            {
+                Id = x.Id,
+                Location = x.Location,
+                ProductDtos = x.Products.Select(p => new ProductDto
+                    {
+                        Name = p.Name,
+                        Price = p.Price,
+                        WarehouseId = p.WarehouseId
+                    })
+            });
+
+        var sql = w.ToQueryString();
+
+//        SELECT[w].[Id], [w].[Location], [p].[Name], [p].[Price], [p].[WarehouseId], [p].[Id]
+//        FROM[Warehouse] AS[w]
+//        LEFT JOIN[Product] AS[p] ON[w].[Id] = [p].[WarehouseId]
+//        ORDER BY[w].[Id]
+
+        return await w.ToListAsync();
     }
 
     // GET: api/warehouses/1
     [HttpGet("{id}")]
-    public async Task<ActionResult<Warehouse>> GetWarehouse(int id)
+    public async Task<ActionResult<WarehouseDto>> GetWarehouse(int id)
     {
-        var warehouse = await _context.Warehouses.FindAsync(id);
+        var warehouse = await _context.Warehouses
+            .Include(x => x.Products)
+            .Select(x => new WarehouseDto
+            {
+                Id = x.Id,
+                Location = x.Location,
+                ProductDtos = x.Products.Select(p => new ProductDto
+                {
+                    Name = p.Name,
+                    Price = p.Price,
+                    WarehouseId = p.WarehouseId
+                })
+            }).Where(x => x.Id == id).FirstAsync();
 
         if (warehouse == null)
             return NotFound();

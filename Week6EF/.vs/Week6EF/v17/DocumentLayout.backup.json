@@ -3,44 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\migrations\\20251021124833_addcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\migrations\\20251021124833_addcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\controllers\\warehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\controllers\\warehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\data\\codefirstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\data\\codefirstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\dtos\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\dtos\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\models\\databasefirstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\models\\databasefirstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\resources\\databasefirstdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\resources\\databasefirstdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\models\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\models\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\migrations\\20251021103751_startmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\migrations\\20251021103751_startmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\data\\codefirstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\data\\codefirstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\migrations\\20251021124833_addcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\migrations\\20251021124833_addcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\codefirstexample\\migrations\\20251021103751_startmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641AF5C2-5D21-4AB8-9385-68E31F5F1266}|CodeFirstExample\\CodeFirstExample.csproj|solutionrelative:codefirstexample\\migrations\\20251021103751_startmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7924C31-88DF-4558-8030-B8B16F48F6A4}|ado.net\\AdoNetDataReader\\AdoNetDataReader.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\ado.net\\adonetdatareader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7924C31-88DF-4558-8030-B8B16F48F6A4}|ado.net\\AdoNetDataReader\\AdoNetDataReader.csproj|solutionrelative:ado.net\\adonetdatareader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|c:\\users\\e-marta.petruzzelli\\academy7\\msc-academy-dev-7\\week06_database_ef\\week6ef\\webapplication\\resources\\databasefirstdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0D7F6948-1CEE-4CC7-AD90-324CA816867A}|WebApplication\\WebApplicationEF.csproj|solutionrelative:webapplication\\resources\\databasefirstdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +90,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 133,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WarehouseDto.cs",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Dtos\\WarehouseDto.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Dtos\\WarehouseDto.cs",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Dtos\\WarehouseDto.cs",
+              "RelativeToolTip": "WebApplication\\Dtos\\WarehouseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:04:28.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "WebApplication\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:49:08.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplication\\Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:42:01.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseFirstDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Models\\DatabaseFirstDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\DatabaseFirstDbContext.cs",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Models\\DatabaseFirstDbContext.cs",
+              "RelativeToolTip": "WebApplication\\Models\\DatabaseFirstDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:40:05.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseFirstDb.sql ",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Resources\\DatabaseFirstDb.sql",
+              "RelativeDocumentMoniker": "WebApplication\\Resources\\DatabaseFirstDb.sql",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Resources\\DatabaseFirstDb.sql",
+              "RelativeToolTip": "WebApplication\\Resources\\DatabaseFirstDb.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-22T13:32:10.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WarehousesController.cs",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Controllers\\WarehousesController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\WarehousesController.cs",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Controllers\\WarehousesController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\WarehousesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:49:43.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwC4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:48:15.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\Program.cs",
+              "RelativeToolTip": "WebApplication\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:46:55.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\WebApplication\\appsettings.json",
+              "RelativeToolTip": "WebApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T12:14:53.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "20251021124833_AddCountry.cs",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Migrations\\20251021124833_AddCountry.cs",
               "RelativeDocumentMoniker": "CodeFirstExample\\Migrations\\20251021124833_AddCountry.cs",
@@ -67,33 +223,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "CodeFirstDbContext.cs",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Data\\CodeFirstDbContext.cs",
               "RelativeDocumentMoniker": "CodeFirstExample\\Data\\CodeFirstDbContext.cs",
               "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Data\\CodeFirstDbContext.cs",
               "RelativeToolTip": "CodeFirstExample\\Data\\CodeFirstDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA0wCUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T12:29:15.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Warehouse.cs",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Models\\Warehouse.cs",
               "RelativeDocumentMoniker": "CodeFirstExample\\Models\\Warehouse.cs",
               "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Models\\Warehouse.cs",
               "RelativeToolTip": "CodeFirstExample\\Models\\Warehouse.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T12:18:43.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Models\\Country.cs",
               "RelativeDocumentMoniker": "CodeFirstExample\\Models\\Country.cs",
@@ -106,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "20251021103751_StartMigration.cs",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Migrations\\20251021103751_StartMigration.cs",
               "RelativeDocumentMoniker": "CodeFirstExample\\Migrations\\20251021103751_StartMigration.cs",
@@ -119,50 +275,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "App.cs",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\App.cs",
               "RelativeDocumentMoniker": "CodeFirstExample\\App.cs",
               "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\App.cs",
               "RelativeToolTip": "CodeFirstExample\\App.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T10:01:10.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Program.cs",
               "RelativeDocumentMoniker": "CodeFirstExample\\Program.cs",
               "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\Program.cs",
               "RelativeToolTip": "CodeFirstExample\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T10:01:19.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "readme.md",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\readme.md",
               "RelativeDocumentMoniker": "CodeFirstExample\\readme.md",
               "ToolTip": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\readme.md",
               "RelativeToolTip": "CodeFirstExample\\readme.md",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAIBJwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-10-21T08:35:27.941Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\CodeFirstExample\\appsettings.json",
               "RelativeDocumentMoniker": "CodeFirstExample\\appsettings.json",
@@ -175,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\e-marta.petruzzelli\\Academy7\\MSC-Academy-Dev-7\\Week06_Database_EF\\Week6EF\\ado.net\\AdoNetDataReader\\Program.cs",
               "RelativeDocumentMoniker": "ado.net\\AdoNetDataReader\\Program.cs",

@@ -1,3 +1,9 @@
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.csproj.AssemblyReference.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.AssemblyInfoInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.AssemblyInfo.cs
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.csproj.CoreCompileInputs.cache
+C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.sourcelink.json
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\bin\Debug\net8.0\appsettings.json
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\bin\Debug\net8.0\CodeFirstExample.exe
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\bin\Debug\net8.0\CodeFirstExample.deps.json
@@ -163,12 +169,6 @@ C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.csproj.AssemblyReference.cache
-C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.AssemblyInfoInputs.cache
-C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.AssemblyInfo.cs
-C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.csproj.CoreCompileInputs.cache
-C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.sourcelink.json
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirs.E3A947C8.Up2Date
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\CodeFirstExample.dll
 C:\Users\e-marta.petruzzelli\Academy7\MSC-Academy-Dev-7\Week06_Database_EF\Week6EF\CodeFirstExample\obj\Debug\net8.0\refint\CodeFirstExample.dll
