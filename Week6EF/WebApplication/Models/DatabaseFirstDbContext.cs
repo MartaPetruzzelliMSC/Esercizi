@@ -15,6 +15,8 @@ public partial class DatabaseFirstDbContext : DbContext
     {
     }
 
+    public virtual DbSet<Comment> Comments { get; set; }
+
     public virtual DbSet<Product> Products { get; set; }
 
     public virtual DbSet<Warehouse> Warehouses { get; set; }
@@ -25,6 +27,22 @@ public partial class DatabaseFirstDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Comment>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK_Comment_1");
+
+            entity.ToTable("Comment");
+
+            entity.Property(e => e.CommentContent).HasMaxLength(255);
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("smalldatetime");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.Comments)
+                .HasForeignKey(d => d.ProductId)
+                .HasConstraintName("FK_Product_Comment");
+        });
+
         modelBuilder.Entity<Product>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Product__3214EC0753DC7FCA");

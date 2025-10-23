@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json.Serialization;
 
 namespace WebApplicationEF.Models;
 
@@ -14,6 +12,8 @@ public partial class Product
     public decimal Price { get; set; }
 
     public int WarehouseId { get; set; }
+
+    public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
 
     public virtual Warehouse Warehouse { get; set; } = null!;
 }

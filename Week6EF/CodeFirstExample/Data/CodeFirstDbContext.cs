@@ -25,9 +25,9 @@ public class CodeFirstDbContext : DbContext
 
         // Seed dei magazzini
         modelBuilder.Entity<Warehouse>().HasData(
-            new Warehouse { Id = 1, Location = "Torino", CountryId = 1},
-            new Warehouse { Id = 2, Location = "Genova", CountryId = 1 },
-            new Warehouse { Id = 3, Location = "Lione", CountryId = 2 }
+            new Warehouse { Id = 1, Location = "Torino" /*, CountryId = 1*/},
+            new Warehouse { Id = 2, Location = "Genova"/*, CountryId = 1 */},
+            new Warehouse { Id = 3, Location = "Lione"/*, CountryId = 2 */}
         );
 
         // Seed dei prodotti

@@ -16,46 +16,88 @@ public class WarehousesController : ControllerBase
         _context = context;
     }
 
-    // GET: api/warehouses
     [HttpGet]
     public async Task<ActionResult<IEnumerable<WarehouseDto>>> GetWarehouses()
     {
         var w = _context.Warehouses
-            .Include(x => x.Products)
             .Select(x => new WarehouseDto
             {
                 Id = x.Id,
+                Location = x.Location,               
+            });
+
+        var sql = w.ToQueryString();
+        return await w.ToListAsync();
+    }
+
+    // GET: api/warehouses/structure
+    [HttpGet("structure")]
+    public async Task<ActionResult<IEnumerable<WarehouseStructureDto>>> GetWarehousesStructure()
+    {
+        var w = _context.Warehouses
+            .Include(x => x.Products)
+            .ThenInclude(y => y.Comments)
+            .Select(x => new WarehouseStructureDto
+            {
+                Id = x.Id,
                 Location = x.Location,
-                ProductDtos = x.Products.Select(p => new ProductDto
+                ProductDtos = x.Products.Select(p => new ProductStructureDto
                     {
+                        Id = p.Id,
                         Name = p.Name,
                         Price = p.Price,
-                        WarehouseId = p.WarehouseId
-                    })
+                        WarehouseId = p.WarehouseId,
+                        Comments = p.Comments.Select(c => new CommentDto
+                        {
+                            Id = c.Id,
+                            CommentContent = c.CommentContent,
+                            CreatedAt = c.CreatedAt,
+                            ProductId = c.ProductId
+                        })
+                })
             });
 
         var sql = w.ToQueryString();
 
-//        SELECT[w].[Id], [w].[Location], [p].[Name], [p].[Price], [p].[WarehouseId], [p].[Id]
-//        FROM[Warehouse] AS[w]
-//        LEFT JOIN[Product] AS[p] ON[w].[Id] = [p].[WarehouseId]
-//        ORDER BY[w].[Id]
+        //  SELECT [w].[Id], [w].[Location], [s].[Id], [s].[Name], [s].[Price], [s].[WarehouseId], [s].[Id0], [s].[CommentContent], [s].[CreatedAt], [s].[ProductId]
+        //  FROM [Warehouse] AS [w]
+        //  LEFT JOIN (
+        //  SELECT [p].[Id], [p].[Name], [p].[Price], [p].[WarehouseId], [c].[Id] AS [Id0], [c].[CommentContent], [c].[CreatedAt], [c].[ProductId]
+        //  FROM [Product] AS [p]
+        //  LEFT JOIN [Comment] AS [c] ON [p].[Id] = [c].[ProductId]
+        //  ) AS [s] ON [w].[Id] = [s].[WarehouseId]
+        //  ORDER BY [w].[Id], [s].[Id]
 
         return await w.ToListAsync();
     }
 
-    // GET: api/warehouses/1
     [HttpGet("{id}")]
-    public async Task<ActionResult<WarehouseDto>> GetWarehouse(int id)
+    public async Task<ActionResult<WarehouseDto>> GetWarehouse()
     {
-        var warehouse = await _context.Warehouses
-            .Include(x => x.Products)
+        var w = _context.Warehouses
             .Select(x => new WarehouseDto
             {
                 Id = x.Id,
                 Location = x.Location,
-                ProductDtos = x.Products.Select(p => new ProductDto
+            });
+
+        var sql = w.ToQueryString();
+        return await w.FirstOrDefaultAsync();
+    }
+
+    // GET: api/warehouses/1/structure
+    [HttpGet("{id}/structure")]
+    public async Task<ActionResult<WarehouseStructureDto>> GetWarehouseStructure(int id)
+    {
+        var warehouse = await _context.Warehouses
+            .Include(x => x.Products)
+            .Select(x => new WarehouseStructureDto
+            {
+                Id = x.Id,
+                Location = x.Location,
+                ProductDtos = x.Products.Select(p => new ProductStructureDto
                 {
+                    Id = p.Id,
                     Name = p.Name,
                     Price = p.Price,
                     WarehouseId = p.WarehouseId
@@ -68,16 +110,22 @@ public class WarehousesController : ControllerBase
         return warehouse;
     }
 
-
     // GET: api/warehouses/5/products
     [HttpGet("{id}/products")]
-    public async Task<ActionResult<IEnumerable<Product>>> GetProductsByWarehouse(int id)
+    public async Task<ActionResult<IEnumerable<ProductDto>>> GetProductsByWarehouse(int id)
     {
         var warehouseExists = await _context.Warehouses.AnyAsync(w => w.Id == id);
         if (!warehouseExists)
             return NotFound();
 
-        var products = await _context.Products
+        var products = await _context.Products.AsNoTracking()
+            .Select(x => new ProductDto
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Price = x.Price,
+                WarehouseId = x.WarehouseId,
+            })
             .Where(p => p.WarehouseId == id)
             .ToListAsync();
 
@@ -104,20 +152,29 @@ public class WarehousesController : ControllerBase
 
     // POST: api/warehouses
     [HttpPost]
-    public async Task<ActionResult<Warehouse>> CreateWarehouse(Warehouse warehouse)
+    public async Task<ActionResult<WarehouseDto>> CreateWarehouse(UpsertWarehouseDto warehouse)
     {
-        _context.Warehouses.Add(warehouse);
+        
+        var w = _context.Warehouses.Add( new Warehouse
+        {
+            Location = warehouse.Location
+            //Products = warehouse.ProductDto
+        }).Entity;
         await _context.SaveChangesAsync();
 
-        return CreatedAtAction(nameof(GetWarehouse), new { id = warehouse.Id }, warehouse);
+        return new WarehouseDto
+        {
+            Id = w.Id,
+            Location = w.Location,
+        };
     }
 
-    // PUT: api/warehouses/5
+    // PUT: api/warehouses/
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateWarehouse(int id, Warehouse updatedWarehouse)
+    public async Task<IActionResult> UpdateWarehouse(int id, UpsertWarehouseDto updatedWarehouse)
     {
-        if (id != updatedWarehouse.Id)
-            return BadRequest();
+        //if (id != updatedWarehouse.Id)
+        //    return BadRequest();
 
         var existingWarehouse = await _context.Warehouses.FindAsync(id);
         if (existingWarehouse == null)

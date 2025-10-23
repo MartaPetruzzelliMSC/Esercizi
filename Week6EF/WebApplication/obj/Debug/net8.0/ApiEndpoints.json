@@ -1,5 +1,114 @@
 [
   {
+    "ContainingType": "WebApplicationEF.Controllers.CommentsController",
+    "Method": "GetComments",
+    "RelativePath": "Comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Dtos.CommentDto, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.CommentsController",
+    "Method": "CreateComment",
+    "RelativePath": "Comments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "WebApplicationEF.Dtos.CreateCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationEF.Dtos.CommentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.CommentsController",
+    "Method": "GetComment",
+    "RelativePath": "Comments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationEF.Dtos.CommentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.CommentsController",
+    "Method": "UpdateComment",
+    "RelativePath": "Comments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateComment",
+        "Type": "WebApplicationEF.Dtos.UpdateCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.CommentsController",
+    "Method": "DeleteComment",
+    "RelativePath": "Comments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplicationEF.Controllers.ProductsController",
     "Method": "GetProducts",
     "RelativePath": "Products",
@@ -9,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Models.Product, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Dtos.ProductDto, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,11 +138,21 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "WebApplicationEF.Dtos.ProductDto",
+        "Type": "WebApplicationEF.Dtos.UpsertProductDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationEF.Dtos.ProductDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebApplicationEF.Controllers.ProductsController",
@@ -51,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApplicationEF.Models.Product",
+        "Type": "WebApplicationEF.Dtos.ProductDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -76,7 +195,7 @@
       },
       {
         "Name": "updatedProduct",
-        "Type": "WebApplicationEF.Dtos.ProductDto",
+        "Type": "WebApplicationEF.Dtos.UpsertProductDto",
         "IsRequired": true
       }
     ],
@@ -97,6 +216,78 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.ProductsController",
+    "Method": "GetCommentsByProductId",
+    "RelativePath": "Products/{id}/comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Dtos.CommentDto, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.ProductsController",
+    "Method": "GetProductStructure",
+    "RelativePath": "Products/{id}/structure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationEF.Dtos.ProductStructureDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.ProductsController",
+    "Method": "GetProductsStructure",
+    "RelativePath": "Products/structure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Dtos.ProductStructureDto, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebApplicationEF.Controllers.WarehousesController",
@@ -128,13 +319,13 @@
     "Parameters": [
       {
         "Name": "warehouse",
-        "Type": "WebApplicationEF.Models.Warehouse",
+        "Type": "WebApplicationEF.Dtos.UpsertWarehouseDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApplicationEF.Models.Warehouse",
+        "Type": "WebApplicationEF.Dtos.WarehouseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -154,7 +345,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Int32",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -185,7 +376,7 @@
       },
       {
         "Name": "updatedWarehouse",
-        "Type": "WebApplicationEF.Models.Warehouse",
+        "Type": "WebApplicationEF.Dtos.UpsertWarehouseDto",
         "IsRequired": true
       }
     ],
@@ -223,7 +414,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Models.Product, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Dtos.ProductDto, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -255,6 +446,52 @@
     "ReturnTypes": [
       {
         "Type": "WebApplicationEF.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.WarehousesController",
+    "Method": "GetWarehouseStructure",
+    "RelativePath": "Warehouses/{id}/structure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationEF.Dtos.WarehouseStructureDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationEF.Controllers.WarehousesController",
+    "Method": "GetWarehousesStructure",
+    "RelativePath": "Warehouses/structure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEF.Dtos.WarehouseStructureDto, WebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
