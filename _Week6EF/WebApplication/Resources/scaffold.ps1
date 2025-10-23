@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Server=(localdb)\CCC;Database=DatabaseFirstDb;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -t Product -t Warehouse --force

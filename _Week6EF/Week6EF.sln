@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationEF", "WebApplication\WebApplicationEF.csproj", "{0D7F6948-1CEE-4CC7-AD90-324CA816867A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstExample", "CodeFirstExample\CodeFirstExample.csproj", "{641AF5C2-5D21-4AB8-9385-68E31F5F1266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ado.net", "ado.net", "{C9875E9B-C4DC-4DDC-98E8-D06B3F6E9E97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoNetDataReader", "ado.net\AdoNetDataReader\AdoNetDataReader.csproj", "{A7924C31-88DF-4558-8030-B8B16F48F6A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{419C3512-5238-46B9-A11A-E2BF5A5ADCE0}"
+	ProjectSection(SolutionItems) = preProject
+		CompanyDB.sql = CompanyDB.sql
+		EmployeeDB.sql = EmployeeDB.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoNetDataSet", "ado.net\AdoNetDataSet\AdoNetDataSet.csproj", "{978F825E-EE71-4115-8098-C9E5B5F41D1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Slides", "Slides", "{C7520734-D8AB-462F-BE27-133CFAE70994}"
+	ProjectSection(SolutionItems) = preProject
+		Slides\Week 6 EF.pptx = Slides\Week 6 EF.pptx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7F6948-1CEE-4CC7-AD90-324CA816867A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7F6948-1CEE-4CC7-AD90-324CA816867A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7F6948-1CEE-4CC7-AD90-324CA816867A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7F6948-1CEE-4CC7-AD90-324CA816867A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641AF5C2-5D21-4AB8-9385-68E31F5F1266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641AF5C2-5D21-4AB8-9385-68E31F5F1266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641AF5C2-5D21-4AB8-9385-68E31F5F1266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641AF5C2-5D21-4AB8-9385-68E31F5F1266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7924C31-88DF-4558-8030-B8B16F48F6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7924C31-88DF-4558-8030-B8B16F48F6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7924C31-88DF-4558-8030-B8B16F48F6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7924C31-88DF-4558-8030-B8B16F48F6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978F825E-EE71-4115-8098-C9E5B5F41D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978F825E-EE71-4115-8098-C9E5B5F41D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978F825E-EE71-4115-8098-C9E5B5F41D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978F825E-EE71-4115-8098-C9E5B5F41D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7924C31-88DF-4558-8030-B8B16F48F6A4} = {C9875E9B-C4DC-4DDC-98E8-D06B3F6E9E97}
+		{419C3512-5238-46B9-A11A-E2BF5A5ADCE0} = {C9875E9B-C4DC-4DDC-98E8-D06B3F6E9E97}
+		{978F825E-EE71-4115-8098-C9E5B5F41D1D} = {C9875E9B-C4DC-4DDC-98E8-D06B3F6E9E97}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A3C069D-322F-471C-B45D-6BCA6767565D}
+	EndGlobalSection
+EndGlobal
