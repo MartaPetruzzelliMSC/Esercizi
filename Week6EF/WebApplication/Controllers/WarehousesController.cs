@@ -72,14 +72,14 @@ public class WarehousesController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<WarehouseDto>> GetWarehouse()
+    public async Task<ActionResult<WarehouseDto>> GetWarehouse(int id)
     {
         var w = _context.Warehouses
             .Select(x => new WarehouseDto
             {
                 Id = x.Id,
                 Location = x.Location,
-            });
+            }).Where(x => x.Id == id);
 
         var sql = w.ToQueryString();
         return await w.FirstOrDefaultAsync();
